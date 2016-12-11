@@ -34,16 +34,16 @@ public class Test {
  * Code to produce from 00:00 to 24:59 
  */        
         
-//        String i = "0";
-//        for(int hour=0;hour<=24;hour++){            
-//            for(int min=0;min<=59;min++){
-//                if(hour<=9 && min<=59){
-//                    System.out.println(i+hour+":"+min);
-//                }
-//                else
-//                    System.out.println(hour+":"+min);
-//            }
-//        }
+        String i = "0";
+        for(int hour=0;hour<=24;hour++){            
+            for(int min=0;min<=59;min++){
+                if(hour<=9 && min<=59){
+                    System.out.println(i+hour+":"+min);
+                }
+                else
+                    System.out.println(hour+":"+min);
+            }
+        }
         
         //End of the code.
     }
