@@ -45,8 +45,19 @@ public class Test {
             }
         }
         
+        for (int hour = 0; hour <= 24; hour++) {
+            for (int min = 0; min <= 59; min++) {
+                if (hour <= 9 && min <= 59) {
+                    System.out.println(i + hour + ":" + min);
+                } else {
+                    System.out.println(hour + ":" + min);
+                }
+            }
+        }
+        
         //End of the code.
     }
+}
         
 /**
  * Decimal to binary converter.
@@ -58,7 +69,7 @@ public class Test {
 //        String s = Integer.toString(n);
 //        Integer intWrapper = Integer.valueOf("10010", 2);
 //        System.out.println(intWrapper);
-//
+
 //        int number;
 //
 //        Scanner in = new Scanner(System.in);
@@ -69,7 +80,7 @@ public class Test {
 //        if (number < 0) {
 //            
 //            System.out.println("Error: Not a positive integer");
-//
+
 //        }
 //        else{
 //
@@ -126,5 +137,3 @@ public class Test {
 //        System.out.println(calendar.get(Calendar.SECOND));
         
 //Upto this line of code.
-    
-}
